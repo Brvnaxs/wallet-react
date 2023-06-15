@@ -7,20 +7,63 @@ height: 36.8px;
 left: 31px;
 top: 41px;
 
-
-
-
-
 }
 
 .NavBar::before {
     content: "";
     height: 1px;
-    width: 1030px;
+    width: 1005px;
     background-color: #ffff;
     display: flex;
     top: 125px;
     position: relative;
+
+}
+
+
+.vector-1{
+    content: "";
+    height: 5px;
+    width: 34px;
+    background-color: #ffff;
+    display: flex;
+    top: -215px;
+    position: relative;
+    left: 950px;
+    
+
+}
+.vector-1::before{
+    content: "";
+    height: 5px;
+    width: 34px;
+    background-color: #ffff;
+    display: flex;
+    top: 20px;
+    position: relative;
+
+}
+
+.vector-2{
+    content: "";
+    height: 1px;
+    width: 1004px;
+    background-color: #ffff;
+    display: flex;
+    top: 1620px;
+    position: relative;
+}
+
+.vector-3{
+    content: "";
+    height: 1730px;
+    width: 1px;
+    background-color: #ffff;
+    display: flex;
+    top: -1728px;
+    position: relative;
+    left: 1005px;
+    
 
 }
 

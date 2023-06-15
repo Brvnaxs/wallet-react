@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.sign-1 {
+    color: #ffff;
+    font-size: 16px;
+    text-decoration: underline;
+    display: flex;
+    position: relative;
+    bottom: 2020px;
+    margin-left: 1650px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.content-1 {
+    content: "";
+    height: 43px;
+    width: 1px;
+    background-color: #ffffff;
+    display: flex;
+    bottom: 10px;
+    position: relative;
+    left: 35px;
+
+}
