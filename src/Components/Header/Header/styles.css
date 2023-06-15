@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.NavBar {
+position: absolute;
+width: 32.22px;
+height: 36.8px;
+left: 31px;
+top: 41px;
+
+
+
+
+
+}
+
+.NavBar::before {
+    content: "";
+    height: 1px;
+    width: 1030px;
+    background-color: #ffff;
+    display: flex;
+    top: 125px;
+    position: relative;
+
+}
+
+
+.X {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    position: relative;
+    bottom: 90px;
+    margin-left: 78px;
+
+
+}
+
+.T {
+    color: #ffff;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    position: relative;
+    bottom: 52px;
+    margin-left: 65px;
+
+}
+
+
+.wallet {
+    color:#ffff;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    position: relative;
+    bottom: 130px;
+    margin-left: 100px;
+}
+
+.button-1{
+    font-family: 'Inter', sans-serif;
+    color:#000000;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    font-style: normal;
+    top: 450px;
+    position: relative;
+    width: 144px;
+    height: 53px;
+
+}
