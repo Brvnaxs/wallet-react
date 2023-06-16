@@ -1,10 +1,12 @@
-.bloco-1{
-    display: flex;
+.forma-1 {
+  
     position: relative;
-    width: 32.22px;
-    height: 36.8px;
-    left: 31px;
-    top: 41px;
+    bottom: 1650px;
+    left: 1380px;
+}
 
-    }
-
+.forma-2{
+    position: relative;
+    bottom: 750px;
+    left: 300px;
+}

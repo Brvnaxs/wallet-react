@@ -56,11 +56,11 @@ top: 41px;
 
 .vector-3{
     content: "";
-    height: 1730px;
+    height: 2000px;
     width: 1px;
     background-color: #ffff;
     display: flex;
-    top: -1728px;
+    top: -2000px;
     position: relative;
     left: 1005px;
     
