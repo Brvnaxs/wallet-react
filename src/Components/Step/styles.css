@@ -1,0 +1,28 @@
+.Step {
+    width: 390px;
+    height: 257px;
+    color: #ffff;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Step:hover{
+    background-color: #000000;
+}
+.step-index{
+    font-size: 25px;
+    transform: rotate(270deg);
+}
+.step-h2 {
+    width: 291px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.step-p {
+    width: 235px;
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,88 @@
+.modal {
+    position: absolute;
+    background-color: #8A05BE;
+    height: 530px;
+    width: 853px;
+    border-radius: 27px;
+    align-self: center;
+    Top: 180px;
+    Left: 393px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #ffff 1px solid;
+    
+}
+.close-modal{
+    margin-bottom: 80px;
+    background: none;
+    color: #ffff;
+    font-size: 30px;
+}
+.open-modal{
+    width: 144px;
+    height: 53px;
+    background: none;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffff;
+    cursor: pointer;
+    margin: 0px 13px 0px 430px;
+    border-right: 1px solid #ffff;
+}
+.open-modal:hover{
+    background-color: #ffff;
+    color: #000000;
+    text-decoration: none;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(8px);
+}
+.logo2{
+    height: 91px;
+    width: 108px;
+    margin-bottom: 17px;
+}
+.modal-input {
+    height: 52px;
+    width: 323px;
+    background: none;
+    border: 1px solid #ffff;
+    color: #9B9B9B;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 23px;
+    padding-left: 10px;
+}
+.redefine-senha{
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+text-decoration: underline;
+text-underline-offset: 2px;
+text-align: left;
+color: #ffff;
+align-self: flex-start;
+margin: 0px  0px 14px 6px ;
+}
+.entrar {
+    width: 152px;
+    height: 39px;
+    background: #FFFFFF;
+    color: #8A05BE;
+    font-size: 12px;
+    font-weight: 800;
+}

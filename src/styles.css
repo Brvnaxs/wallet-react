@@ -1,6 +1,15 @@
-.main-Header{
-    background-color: #8A06BE;
-    width: 100vw;
-    height: 100vw;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
 }
 
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;   
+}
+input{
+    outline: none;
+}

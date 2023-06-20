@@ -1,0 +1,39 @@
+.Wallet{
+    height: fit-content;
+    color: #ffff;
+}
+.Wallet h1{
+font-size: 28px;
+font-weight: 600;
+line-height: 34px;
+text-align: left;
+margin-bottom: 40px;
+}
+.wallet-items{
+    display: flex;
+    width: 60%;
+    height: 147px;
+    justify-content: space-around;
+    border: 1px solid #9C9C9C;
+    border-radius: 20px;
+}
+.wallet-item{
+    display: flex;
+    align-items: center;
+}
+.wallet-item img{
+    width: 46px;
+    height: 46px;
+    margin-right: 12px;
+}
+.wallet-item h2{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;    
+}
+.wallet-item p{
+font-size: 14px;
+font-weight: 500;
+text-align: left;
+
+}

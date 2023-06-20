@@ -1,0 +1,71 @@
+.PageOne {
+    width: 100vw;
+    height: 100vh;
+    background-color: #8A06BE;
+    background-image: url('../../assets/Group 15.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.page-one-text {
+    width: 50%;
+    height: 70%;
+    border-right: 1px solid #ffffff;
+    padding-top: 78px;
+}
+
+.start {
+    width: 144px;
+    height: 53px;
+    background: #ffff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+    margin: 8px 0px 20px 31px;
+}
+
+
+.page-one-text h1 {
+    width: 512px;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.315em;
+    text-align: left;
+    color: #ffff;
+    margin: 8px 0px 20px 31px;
+}
+
+.p-one {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffff;
+    margin: 8px 0px 20px 31px;
+}
+
+.p-two {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffff;
+    width: 578px;
+    margin: 8px 0px 20px 31px;
+}
+.steps{
+    display: flex;
+    width: 100%;
+    background-color: inherit;
+    justify-content: center;
+    margin-top: 0%;
+    border-top: 1px solid #ffffff;
+}

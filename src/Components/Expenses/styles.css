@@ -1,0 +1,49 @@
+.Expenses{
+    width: 80%;
+    height: 204px;
+    align-self: center;
+    background-color: #ffff;
+    margin-top: 88px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding-left: 20px;
+    box-shadow: 0px 4px 40px 0px #FFFFFF42;
+    border-radius: 20px;
+}
+.expenses-item{
+    display: flex;
+    align-items: center;
+}
+.Expenses h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-right: 11px;
+}
+.Expenses input{
+    background-color: #ffff;
+    border-radius: 20px;
+    height: 32px;
+    border: 1px solid #9C9C9C;
+}
+.descricao input{
+    width: 392px;
+    margin-right: 162px;
+}
+.categoria input{
+    width: 245px;
+    margin-right: 32px;
+    
+}
+.valor input{
+    width: 105px;
+}
+.metodo input{
+    width: 188px;
+}
+.moeda input{
+    width: 245px;   
+}
