@@ -1,6 +1,7 @@
 .Wallet{
     height: fit-content;
     color: #ffff;
+    margin-left: 31px;
 }
 .Wallet h1{
 font-size: 28px;

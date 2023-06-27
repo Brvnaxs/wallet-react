@@ -6,9 +6,17 @@ import { Link, useNavigate } from "react-router-dom";
 import './styles.css'
 
 export default function SignIn() {
+    const [password, setPassword] = useState()
+    const [email, setEmail] = useState()
     const navigate = useNavigate()
     function GoToDashboard(){
-        navigate('/dashboard')
+        if(!email || !password){
+            return(
+                alert("Por favor informe seu email e senha para prosseguir.")
+            )
+        }else{
+            navigate('/dashboard')
+        }
     }
     const [modalIsOpen, setIsOpen] = useState(false);
     // Função que abre a modal
@@ -32,8 +40,8 @@ export default function SignIn() {
              >
                 <div className='modal-content'>
                 <img className='logo2' src={logo2} alt="" />
-                <input type="text" className='modal-input' placeholder='E-mail'/>
-                <input type="text" className='modal-input' placeholder='Senha'/>
+                <input type="text" className='modal-input' placeholder='E-mail'  value={email} onChange={e => setEmail(e.target.value)}/>
+                <input type="text" className='modal-input' placeholder='Senha' value={password} onChange={e => setPassword(e.target.value)}/>
                 <span className='redefine-senha'>Esqueceu a senha?</span>
                 <button className='entrar' onClick={GoToDashboard}>ENTRAR</button>
                 </div>

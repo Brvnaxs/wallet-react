@@ -1,0 +1,31 @@
+.ExpensesCard {
+    width: 80%;
+    min-height: 218px;
+    height: fit-content;
+    margin: 27px 0px 27px 0px;
+    align-self: center;
+    border-radius: 20px;
+    border: 1px solid #9C9C9C;
+    box-shadow: 0px 4px 40px 0px rgba(255, 255, 255, 0.26);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 600;
+    padding: 10px;
+}
+
+.expenses-card-header {
+    border-bottom: 1px solid #FFFFFF;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.expenses-span{
+    height: 29px;
+    border-right: 2px solid #FFF;
+    padding-right: 7px;
+    display: flex;
+    align-items: center;
+}

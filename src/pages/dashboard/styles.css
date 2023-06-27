@@ -1,5 +1,22 @@
-.Dashboard{
+.Dashboard {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    height: fit-content;
     background-color: #8A05BE;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-button {
+    text-align: center;
+    width: 270px;
+    height: 60px;
+    border-radius: 33px;
+    background: #FFF;
+    color: #8A06BE;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 700;
+    align-self: center;
+    margin-top: 27px;
 }
