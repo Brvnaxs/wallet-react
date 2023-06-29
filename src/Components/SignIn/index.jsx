@@ -15,7 +15,7 @@ export default function SignIn() {
                 alert("Por favor informe seu email e senha para prosseguir.")
             )
         }else{
-            navigate('/dashboard')
+            navigate(`/dashboard/${email}`)
         }
     }
     const [modalIsOpen, setIsOpen] = useState(false);

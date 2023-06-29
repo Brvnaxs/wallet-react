@@ -2,10 +2,14 @@ import './styles.css'
 import walletImg from '../../assets/Wallet.png'
 import payImg from '../../assets/Paycheque.png'
 import money from '../../assets/Paper Money 1.png'
-export default function Wallet(){
+
+export default function Wallet({username}){
     return(
         <div className='Wallet'>
-            <h1>Carteira de Conversão</h1>
+            <div className='wallet-header'>
+                <h1>Carteira de Conversão</h1>
+                <h3>{username}</h3>
+            </div>
             <div className='wallet-items'>
                 <div className='wallet-item'>
                     <img src={walletImg} alt="" />

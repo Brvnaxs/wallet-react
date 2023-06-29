@@ -3,12 +3,23 @@
     color: #ffff;
     margin-left: 31px;
 }
+.wallet-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.wallet-header h3{
+    margin-right: 40px;
+}
 .Wallet h1{
 font-size: 28px;
 font-weight: 600;
 line-height: 34px;
 text-align: left;
-margin-bottom: 40px;
 }
 .wallet-items{
     display: flex;
